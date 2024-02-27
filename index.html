@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Decoder</title>
+        <link rel="stylesheet" href="/styles/styles.css" />
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="/images/aluraLogo.png" alt="Alura Logo" />
+        </header>
+        <main class="main">
+            <section class="input">
+                <div class="input__text-area">
+                    <textarea
+                        placeholder="Insert your text here!"
+                        id=""
+                        cols="50"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <div class="input__alert">
+                    <img src="/images/alert.png" alt="alert icon" />
+                    <p>Only lowercase letters and without accents.</p>
+                </div>
+                <div class="input__buttons">
+                    <button class="input__encrypt">Encrypt</button>
+                    <button class="input__decrypt">Decrypt</button>
+                </div>
+            </section>
+            <section class="output">
+                <img
+                    class="output__image"
+                    src="/images/sideImage.svg"
+                    alt="Ilustrative image"
+                />
+                <h2 class="output__title">No message found</h2>
+                <p class="output__text">
+                    Enter a text you want to encrypt or decrypt.
+                </p>
+            </section>
+        </main>
+        <footer></footer>
+        <script src="/javascript/script.js"></script>
+    </body>
+</html>
